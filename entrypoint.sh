@@ -8,4 +8,4 @@ STD_OUTPUT=$(mktemp)
 
 simulator monolith $target | tee $STD_OUTPUT
 
-echo "::set-output name=output::$STD_OUTPUT"
+echo "name=output" >> $GITHUB_OUTPUT
