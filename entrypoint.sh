@@ -6,7 +6,7 @@ echo "Running $target"
 
 STD_OUTPUT=./test-output
 
-touch $STD_OUTPUT
+echo "" > $STD_OUTPUT
 
 simulator monolith $target | tee $STD_OUTPUT
 
