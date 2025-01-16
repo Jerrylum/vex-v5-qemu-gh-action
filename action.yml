@@ -11,7 +11,7 @@ inputs:
     default: "./bin/monolith.bin"
 outputs:
   output:
-    description: "The output of the program"
+    description: "The path to the output of the program"
 runs:
   using: "docker"
   image: "docker://ghcr.io/jerrylum/vex-v5-qemu-gh-action:main"
